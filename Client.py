@@ -33,7 +33,7 @@ if a == 1:
     Logged_In = Login(Name,Contrasena)
 if a == 2:
     Name = input("Identifiquese ")
-    Apodaca = input ("Identifiquese pero con el nombre tonto que eligio para sobrenombre ")
+    Apodaca = input ("Ingrese su nombre de usuario visible: ")
     Password = input ("Eliga Contrasena")
     if RegistrarUsuario(Name,Apodaca,Password):
         Logged_In = True
