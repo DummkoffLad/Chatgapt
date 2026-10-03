@@ -81,7 +81,7 @@ def Add_Friend(Username,Othername):
         Sender.friends.append (Receiver)
         Receiver.friends.append (Sender)
 @app.post("/block")
-def Block_Black_People(Username,Othername):
+def block_user(Username,Othername):
     for item in Users:#Guarda los objetos sender y receiver en una variable
         if item.id == Username:
             Sender = item
